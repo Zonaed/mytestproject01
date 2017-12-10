@@ -20,8 +20,6 @@ public class RunGHJ {
 		//driver.manage().window().maximize();
 		
 		driver.get("https://www.facebook.com/");
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getCurrentUrl());
 		driver.close();
 		
 		
